@@ -52,7 +52,6 @@ func GetProduct(w http.ResponseWriter, r *http.Request) {
 }
 
 func GetOneProduct(w http.ResponseWriter, r *http.Request) {
-
 	// get product id as index of product array
 	vars := mux.Vars(r)
 	id := vars["id"]
